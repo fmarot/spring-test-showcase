@@ -6,6 +6,14 @@
 :icons: font
 :source-highlighter: prettify
 :project_id: gs-testing-web
+
+------------
+ND FMarot: I have "improved" the Spring guide located at https://spring.io/guides/gs/testing-web/ with
+comments INSIDE the tests themselves.
+
+Below is the original README
+------------
+
 This guide walks you through the process of creating a Spring application.
 
 == What you'll build
