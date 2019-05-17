@@ -20,7 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import javax.annotation.PostConstruct;
 
 /**
- * This test simulates the real application but with a real HTTP layer (=> light)
+ * This test simulates the real application but with a real HTTP layer (=> not light and slow ! :( )
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)	// real value decided at runtime will be injected in field annotated with @LocalServerPort
